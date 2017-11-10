@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -29,6 +29,11 @@ nav a {
   text-decoration: none;
   color: #007bff;
   font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
 }
 
 #header a{
@@ -57,9 +62,42 @@ div.jumbotron {
   line-height: 40px;
 }
 
-footer{
+footer {
   border-top: 1px solid #ccc;
   margin-top: 80px;
   padding-top: 20px;
   color: #CCC;
+}
+
+#element-id a:hover {
+  text-decoration: underline;
+}
+
+.questions {
+  font-size: 30px;
+  margin: 0px 20px 0px 20px;;
+}
+
+.questions h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.questions p {
+  margin-top: 30px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+  padding: 18px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
 }
